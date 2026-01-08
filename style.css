@@ -43,6 +43,7 @@ nav ul {
     justify-content: space-between;
     gap: 50px;
     margin: 0;
+    cursor: pointer;
 }
 
 nav ul li {
@@ -63,4 +64,77 @@ nav button {
 nav button a{
     color: white;
     font-size: 15px;
+}
+
+#banner {
+    background: url("assets/hero-bg.png");
+    width: 1600px;
+    height: 674px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 760px;
+    padding: 295px 51px;
+}
+
+#banner .banner-text h4{
+    color: #469165;
+    font-size: 20px;
+    background-color: #fff;
+    width: 280px;
+    height: 35px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    text-align: center;
+    border-radius: 60px;
+    padding-top: 9px;
+}
+
+
+.h1 {
+    font-size: 60px;
+    color: white;
+    margin-bottom: 0;
+}
+
+.banner-text p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: white;
+    width: 601px;
+    line-height: 30px;
+}
+
+.banner-button {
+    width: 500px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.banner-button a {
+    color: white;
+}
+
+.banner-button .btn1 {
+    font-size: 15px;
+}
+
+.btn1 img {
+}
+
+.banner-button .btn2 {
+    border: solid 0.2px white;
+    background-color: #ffffff12;
+    border-radius: 4px;
+}
+
+.banner-button .btn2:hover {
+    background-color: rgba(0, 255, 145, 0.315);
 }
